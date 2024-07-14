@@ -1,4 +1,4 @@
-package tests;
+package test;
 
 import helpers.endpoint;
 import helpers.utility;

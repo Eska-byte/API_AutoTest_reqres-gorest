@@ -3,7 +3,7 @@ package steps;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import tests.apiTest;
+import test.apiTest;
 
 public class apiStep {
     apiTest tesAPI;
