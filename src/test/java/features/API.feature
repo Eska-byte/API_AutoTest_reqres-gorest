@@ -37,7 +37,6 @@ Feature: API Automation Test
   @API
   Scenario: Test GET data unregistered user (negative)
     Given prepare URL "GET_unregistered_user"
-    Given prepare URL "POST_new_user"
     And hit API request POST
     Then verification status code 201
     Then verification response body POST create data
